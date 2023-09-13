@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    background: #8758ff;
+    display: flex;
+        align-items: center;
+        justify-content: center;
+    height: 100vh;
+   
+}
+
+#main_container{
+    background-color: #1A1A40; 
+    border-radius: 3px;
+    color: #F8F1FF;
+    padding: 0.5rem;
+    height: 30em; 
+    width: 22em; 
+}
+
+#header_presentation{
+    height: 20%;
+    padding: 0.5em;
+}
+
+#date{
+    font-size:xx-small;
+    padding: 3px;
+}
+
+
+.text_container, #add_task{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+/*ADD TASK*/
+#input_container{
+    border: 1px solid #8758ff;
+    border-radius: 3px;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+    width: 21em;
+    height: 2em;
+}
+
+#input{
+    background-color:#1A1A40;
+    border: none;
+    height: 1em;
+    width: 80%;
+    padding: 0.5em;
+}
+
+#input::placeholder{
+    color:#f8f1ffa4;
+}
+
+#input:focus {
+    outline: none;
+}
+#button_enter{
+    background-color: #8758ff;
+    border-radius: 3px;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+    padding: 0.5em;
+    width: 21%;
+}
+
+
+/*TASKS*/
+
+#section_task{
+    display: flex;
+        flex-direction: column;
+    position: relative;
+        top: 3%;   
+    width: 100%;
+}
+
+#element{
+    background-color: #8758ff;
+    border-radius: 3px;
+    display: flex;
+        flex-direction: row;
+        align-items: first baseline;
+        justify-content: first baseline;    
+    width: 21em; 
+    padding: 1px;   
+    list-style: none;
+    margin-bottom: 1em;
+}
+
+.task{
+    padding: 2px;
+    width: 80%;
+}
+
+.line_through{
+    text-decoration-line: line-through;
+}
+
+#task_accions{
+    width: 20%;
+}
+
+.accion{
+    padding: 0.5em;
+}

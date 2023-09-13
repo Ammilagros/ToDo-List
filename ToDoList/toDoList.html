@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./toDoList.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>To-Do List</title>
+</head>
+<body>
+    <div id="main_container">
+
+        <div id="header_presentation">
+            <div id="date"></div>
+            <div class="text_container">
+               <h2>Get Things Done!</h2>
+            </div>
+        </div>
+       
+        <div id="add_task">
+            <div id="input_container">
+                 <input type="text" id="input" placeholder="what is the task today?">
+                 <i id="button_enter"class="fas fa-plus-circle" data="enter"></i>
+            </div>
+        </div>
+
+        <div id="section_task">
+            <ul id="list">
+
+            </ul>
+        </div>
+    </div>
+    <script src="./toDoList.js"></script>
+</body>
+</html>
